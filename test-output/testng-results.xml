@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-15T20:15:19 IST" name="Default suite" finished-at="2024-05-15T20:16:52 IST" duration-ms="93610">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper,io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.HomePageRunner@7b36aa0c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-05-15T20:15:19 IST" name="Default test" finished-at="2024-05-15T20:16:52 IST" duration-ms="93610">
+      <class name="runner.HomePageRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.HomePageRunner@7b36aa0c]" started-at="2024-05-15T20:15:19 IST" name="setUpClass" finished-at="2024-05-15T20:15:19 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="before()[pri:0, instance:runner.HomePageRunner@7b36aa0c]" started-at="2024-05-15T20:15:19 IST" name="before" finished-at="2024-05-15T20:15:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper,io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.HomePageRunner@7b36aa0c]" started-at="2024-05-15T20:15:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-15T20:16:52 IST" duration-ms="93404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register the patient in oasis application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Patient Registration"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="after()[pri:0, instance:runner.HomePageRunner@7b36aa0c]" started-at="2024-05-15T20:16:52 IST" name="after" finished-at="2024-05-15T20:16:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.HomePageRunner@7b36aa0c]" started-at="2024-05-15T20:16:52 IST" name="tearDownClass" finished-at="2024-05-15T20:16:52 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.HomePageRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
